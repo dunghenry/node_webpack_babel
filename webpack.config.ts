@@ -21,7 +21,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ['*', '.js'],
+        extensions: ['*', '.js', '.ts'],
     },
     target: 'node',
     externals: [nodeExternals()],
